@@ -12,8 +12,9 @@ function equal(){
     } else if (userInput.value == 0) {
     } else {
         userInput.value = eval(expression);
+        expression = '';
     }
-    expression = '';
+    
     }
 
 
