@@ -13,6 +13,7 @@ function equal(){
     } else {
         userInput.value = eval(expression);
     }
+    expression = '';
     }
 
 
