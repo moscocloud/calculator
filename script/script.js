@@ -12,12 +12,9 @@ function equal(){
     } else if (userInput.value == 0) {
     } else {
         userInput.value = eval(expression);
-        expression = '';
-    }
-    
-    }
-
-
+        expression = eval(expression);
+    }  
+}
 function erase(){
     expression=''
     userInput.value = expression
